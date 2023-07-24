@@ -53,12 +53,23 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
 function writeToFile(readMe, data) {
+    fs.writeFile(readMe, data, "utf-8", error => {
+        if (error) {
+            console.error("Unsuccessful");
+        } else {
+            console.log("Success!");
+        }
+    })
 }
 
-// TODO: Create a function to initialize app
 function init() {
+    inquirer.prompt(questions).then((answers) => {
+        let mkDown = genMd(answers);
+        writeToFile("generatedREADME.md", mkDown);
+    }).catch(error => {
+        console.log(error);
+    })
 
 }
 
