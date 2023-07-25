@@ -12,20 +12,21 @@
   * [License](#license)
 
   ## Installation
-    
+    npm i
 
   ## Usage
-
+    When you run index.js in your command line the console will prompt you simply answer the prompts
 
   ## Contribution
-
+   -Jacob Kachmarek 
 
   ## Test 
-
+    N/A
 
   ## Contact
-  - Email: hello@hello.com
-  - Github: https://github.com/hello
+  - Email: jacob.kachmarek@gmail.com
+  - Github: https://github.com/jacob-kachmarek
+  - LinkedIn: https://www.linkedin.com/in/jacob-kachmarek/  
 
   ## License 
   ### MIT
