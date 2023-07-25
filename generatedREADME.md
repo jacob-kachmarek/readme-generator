@@ -1,6 +1,6 @@
-# README generator
+# Title
   ## Description
-    Simple command line application that will generate a readme based on prompts and user inputs in the command line. Asks for a title, installation instructions, usage instructions, contributions, tests, contact info, and license. 
+  Description
 
   ## Table of Contents
 
@@ -12,16 +12,16 @@
   * [License](#license)
 
   ## Installation
-    
+  Install
 
   ## Usage
-
+  Usage intructions
 
   ## Contribution
-
+  Contributions
 
   ## Test 
-
+  Tests
 
   ## Contact
   - Email: hello@hello.com
